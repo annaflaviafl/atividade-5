@@ -24,6 +24,43 @@
         <ion-button color="dark" expand="block" class="ion-margin-top" (click)="onCalculate()">
           Calcular
         </ion-button>
+
+
+        <ion-item>
+          <ion-label>Veja como interpretar o IMC</ion-label>
+        </ion-item>
+        <ion-grid>
+          <ion-row>
+            <ion-col>IMC</ion-col>
+            <ion-col>CLASSIFICAÇÃO</ion-col>
+            <ion-col>OBESIDADE (GRAU)</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>MENOR QUE 18,5</ion-col>
+            <ion-col>MAGREZA</ion-col>
+            <ion-col>0</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>ENTRE 18,5 E 24,9</ion-col>
+            <ion-col>NORMAL</ion-col>
+            <ion-col>0</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>ENTRE 25,0 E 29,9</ion-col>
+            <ion-col>SOBREPESO</ion-col>
+            <ion-col>I</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>ENTRE 30,0 E 39,9</ion-col>
+            <ion-col>OBESIDADE</ion-col>
+            <ion-col>II</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>MAIOR QUE 40,0</ion-col>
+            <ion-col>OBESIDADE GRAVE</ion-col>
+            <ion-col>III</ion-col>
+          </ion-row>
+        </ion-grid>
       </ion-col>
     </ion-row>
   </ion-grid>
